@@ -1,0 +1,38 @@
+# Data files
+data
+celestrak_data/
+
+# Jupyter Notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Tools folder TypeScript scripts
+tools/**/*.ts
+
+# Python standard ignores
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Weights
+*.pt
+*.pkl
+
+# Agent related
+.agent-tasks
+opencode_session.txt
+docs
+research
+tests
+tools

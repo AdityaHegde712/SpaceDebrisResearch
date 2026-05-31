@@ -1,0 +1,31 @@
+{
+  "roc_auc": 0.5251650636084351,
+  "pr_auc": 0.34531984104450336,
+  "f1_score": 0.0011228533685601057,
+  "brier_score": 0.23772890865802765,
+  "accuracy": 0.6746494175185466,
+  "confusion_matrix": [
+    [
+      188104,
+      19
+    ],
+    [
+      90719,
+      51
+    ]
+  ],
+  "n_test": 278893,
+  "test_high_risk_ratio": 0.3254653215408325,
+  "test_pred_high_risk_ratio": 0.19053258001804352,
+  "size_range": "25_50cm",
+  "sample_fraction": 1.0,
+  "n_train": 1005119,
+  "n_val": 336459,
+  "n_features": 41,
+  "n_params": 54721,
+  "n_windows_raw": 1620471,
+  "train_high_risk_ratio": 0.30810481309890747,
+  "val_high_risk_ratio": 0.23714032769203186,
+  "training_time_seconds": 3825.8,
+  "total_time_seconds": 3825.8
+}

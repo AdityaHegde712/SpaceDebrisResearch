@@ -1,0 +1,67 @@
+{
+  "size_range": "10_25cm",
+  "sampling_fraction": 1.0,
+  "n_train": 150674,
+  "n_test": 49684,
+  "train_high_risk_ratio": null,
+  "test_high_risk_ratio": 0.40501973032951355,
+  "roc_auc": 0.9999994906330296,
+  "pr_auc": 0.9999992514700606,
+  "f1_score": 0.9986600496277915,
+  "brier_score": 0.002693745134002396,
+  "accuracy": 0.9989131309878432,
+  "confusion_matrix": [
+    [
+      29507,
+      54
+    ],
+    [
+      0,
+      20123
+    ]
+  ],
+  "training_time_seconds": 5.8923866748809814,
+  "n_features": 41,
+  "top_features": [
+    {
+      "feature": "log_uncertainty_volume",
+      "importance": 0.293008
+    },
+    {
+      "feature": "log_rtn_uncertainty",
+      "importance": 0.160861
+    },
+    {
+      "feature": "rtn_total_uncertainty_km",
+      "importance": 0.133086
+    },
+    {
+      "feature": "vector_u_sigma_km",
+      "importance": 0.093263
+    },
+    {
+      "feature": "vector_w_sigma_km",
+      "importance": 0.069973
+    },
+    {
+      "feature": "uncertainty_volume_km3",
+      "importance": 0.048925
+    },
+    {
+      "feature": "vector_v_sigma_km",
+      "importance": 0.046527
+    },
+    {
+      "feature": "rtn_covariance_volume_km3",
+      "importance": 0.043634
+    },
+    {
+      "feature": "perigee_alt_km",
+      "importance": 0.017456
+    },
+    {
+      "feature": "altitude_band",
+      "importance": 0.015089
+    }
+  ]
+}

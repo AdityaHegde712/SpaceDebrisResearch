@@ -1,0 +1,183 @@
+{
+  "script": "t3a1_create_targets.py",
+  "timestamp": "2026-05-30 12:58:36",
+  "total_elapsed_seconds": 14.260146617889404,
+  "target_high_risk_ratio": 0.3,
+  "per_size_range": {
+    "25_50cm": {
+      "n_windows": 1620471,
+      "n_high_risk": 480240,
+      "n_low_risk": 1140231,
+      "high_risk_ratio": 0.29635828101829653,
+      "n_with_future": 1614660,
+      "has_future_ratio": 0.9964140055576435,
+      "n_satellites_used": 5811,
+      "n_satellites_total": 5811,
+      "elapsed_seconds": 0.800147294998169,
+      "per_band_thresholds": {
+        "1000+km": {
+          "threshold_log_unc_vol": -3.783939790130142,
+          "high_risk_ratio": 0.3,
+          "count": 1358900
+        },
+        "200-400km": {
+          "threshold_log_unc_vol": -3.7466209712934617,
+          "high_risk_ratio": 0.2999960800198612,
+          "count": 76531
+        },
+        "400-600km": {
+          "threshold_log_unc_vol": -3.854055930095737,
+          "high_risk_ratio": 0.3000004141421253,
+          "count": 241463
+        },
+        "600-800km": {
+          "threshold_log_unc_vol": -4.267928571501063,
+          "high_risk_ratio": 0.3000267881060809,
+          "count": 11199
+        },
+        "800-1000km": {
+          "threshold_log_unc_vol": -5.776153649899451,
+          "high_risk_ratio": 0.2999976628415173,
+          "count": 42787
+        }
+      },
+      "split_distribution": {
+        "test": {
+          "count": 278893,
+          "high_risk_count": 90770,
+          "high_risk_ratio": 0.32546532182593324
+        },
+        "train": {
+          "count": 1005119,
+          "high_risk_count": 309682,
+          "high_risk_ratio": 0.3081048114700846
+        },
+        "val": {
+          "count": 336459,
+          "high_risk_count": 79788,
+          "high_risk_ratio": 0.23714033507797383
+        }
+      }
+    },
+    "10_25cm": {
+      "n_windows": 826624,
+      "n_high_risk": 251402,
+      "n_low_risk": 575222,
+      "high_risk_ratio": 0.30413101966553113,
+      "n_with_future": 822000,
+      "has_future_ratio": 0.9944061628987303,
+      "n_satellites_used": 4624,
+      "n_satellites_total": 4624,
+      "elapsed_seconds": 0.6019318103790283,
+      "per_band_thresholds": {
+        "1000+km": {
+          "threshold_log_unc_vol": -5.816042213098228,
+          "high_risk_ratio": 0.30000449579643035,
+          "count": 22243
+        },
+        "200-400km": {
+          "threshold_log_unc_vol": -3.926785207739098,
+          "high_risk_ratio": 0.2999952890187026,
+          "count": 42454
+        },
+        "400-600km": {
+          "threshold_log_unc_vol": -4.146341874730943,
+          "high_risk_ratio": 0.3,
+          "count": 777690
+        },
+        "600-800km": {
+          "threshold_log_unc_vol": -6.006141144495431,
+          "high_risk_ratio": 0.29999464151752225,
+          "count": 37324
+        },
+        "800-1000km": {
+          "threshold_log_unc_vol": -6.002788417167494,
+          "high_risk_ratio": 0.29999091487235396,
+          "count": 33021
+        },
+        "<200km": {
+          "threshold_log_unc_vol": -5.147682671125489,
+          "high_risk_ratio": 0.3003432494279176,
+          "count": 1748
+        }
+      },
+      "split_distribution": {
+        "test": {
+          "count": 49684,
+          "high_risk_count": 20123,
+          "high_risk_ratio": 0.40501972465985026
+        },
+        "train": {
+          "count": 675950,
+          "high_risk_count": 204428,
+          "high_risk_ratio": 0.30243065315481915
+        },
+        "val": {
+          "count": 100990,
+          "high_risk_count": 26851,
+          "high_risk_ratio": 0.26587780968412716
+        }
+      }
+    },
+    "5_10cm": {
+      "n_windows": 10367700,
+      "n_high_risk": 3071654,
+      "n_low_risk": 7296046,
+      "high_risk_ratio": 0.2962714970533484,
+      "n_with_future": 10348400,
+      "has_future_ratio": 0.9981384492221033,
+      "n_satellites_used": 19300,
+      "n_satellites_total": 19300,
+      "elapsed_seconds": 12.638171434402466,
+      "per_band_thresholds": {
+        "1000+km": {
+          "threshold_log_unc_vol": -5.017709251290681,
+          "high_risk_ratio": 0.29999988289465673,
+          "count": 1707864
+        },
+        "200-400km": {
+          "threshold_log_unc_vol": -3.706073078148643,
+          "high_risk_ratio": 0.30000019582002574,
+          "count": 510673
+        },
+        "400-600km": {
+          "threshold_log_unc_vol": -4.606704962274798,
+          "high_risk_ratio": 0.3000000216052577,
+          "count": 4628503
+        },
+        "600-800km": {
+          "threshold_log_unc_vol": -5.085484957646563,
+          "high_risk_ratio": 0.2999995520696621,
+          "count": 2232490
+        },
+        "800-1000km": {
+          "threshold_log_unc_vol": -5.290073283750859,
+          "high_risk_ratio": 0.30000036695497095,
+          "count": 1635078
+        },
+        "<200km": {
+          "threshold_log_unc_vol": -2.612616781045794,
+          "high_risk_ratio": 0.3000202101859337,
+          "count": 19792
+        }
+      },
+      "split_distribution": {
+        "test": {
+          "count": 999510,
+          "high_risk_count": 399870,
+          "high_risk_ratio": 0.40006603235585436
+        },
+        "train": {
+          "count": 6902668,
+          "high_risk_count": 2149483,
+          "high_risk_ratio": 0.3113988678001028
+        },
+        "val": {
+          "count": 2465522,
+          "high_risk_count": 522301,
+          "high_risk_ratio": 0.2118419547665768
+        }
+      }
+    }
+  }
+}
